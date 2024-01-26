@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+:root {
+    --primary-color: #214f4b;
+    --secondary-color: #09e85e;
+    --text-color: rgba(4, 17, 1, 0.87);
+    --background-color: white;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: var(--text-color);
+    background-color: var(--background-color);
+    margin: 0;
+    padding: 0;
+    background-color: #CCFFFF;
+}
+
+header {
+    padding: 40px;
+    background-color: #CCFFFF;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+nav {
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: solid;
+    color:rgb(17, 1, 1);
+}
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 8px;
+    left: 0;
+    padding: 15px 518px 15px;
+    color: white;
+    background-color: #008080;
+    opacity: 0.8;
+}
+
+article {
+    position: absolute;
+    top: 200px;
+    left: 50px;
+    padding: 20px;
+    text-align: center;
+    font-size: larger;
+    background-color: #214f4b;
+    opacity: 0.8;
+    border: 10px;
+    color:aqua;
+
+}
+
+article img {
+    float: right;
+    max-width: 300px;
+    height: auto;
+}
+
+.sociallinks {
+    border-color: rgb(235, 7, 7);
+}
+
+.sociallinks a {
+    text-decoration: none;
+}
+
+.sociallinks img {
+    max-width: 40px;
+    height: auto;
+    margin: 0 10px;
+}
