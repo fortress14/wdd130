@@ -4,10 +4,6 @@
     box-sizing: border-box;
 }
 
-body {
-    background-color:  #f7f9f9;
-}
-
 nav {
     background-color: #63d2ff;
     padding: 1rem;
@@ -70,7 +66,6 @@ aside h2{
 }
 
 aside img {
-    width: 200px;
     height: auto;
 }
 
@@ -91,8 +86,6 @@ header, .grid, footer {
     display: grid;
     align-items: center;
 }
-
-
 
 /* Class Selectors */
 .box {
