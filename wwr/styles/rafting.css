@@ -2,37 +2,58 @@
 
 :root {
     --primary-color: #214f4b;
-    --secondary-color: #09e85e;
-    --text-color: rgba(4, 17, 1, 0.87);
-    --background-color: white;
+    --secondary-color: aqua;
+    --accent1-color: #DECCCC;
+    --accent2-color: #b89e97;
+
+    --nav-background-color: #5c5c5c;
+    --nav-link-color: white;
+    --nav-hover-link-color: #1098f7;
+    --nav-hover-background-color: #000000;
 }
 
 body {
     font-family: 'Open Sans', sans-serif;
-    color: var(--text-color);
-    background-color: var(--background-color);
     margin: 0;
     padding: 0;
-    background-color: #CCFFFF;
+    background-color: var(--nav-background-color);
 }
 
 header {
-    padding: 40px;
-    background-color: #CCFFFF;
+    padding: 10px;
+    background-color: var(--nav-background-color) ;
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: 500px 4fr 1fr;
+    border-bottom: 1px solid black;
+    align-items: center;
+    
 }
 
 img {
-    max-width: 100%;
-    height: auto;
+    width: 150px;
 }
 
 nav {
-    padding: 10px;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 2rem;
 }
 
 nav a {
-    text-decoration: solid;
-    color:rgb(17, 1, 1);
+    display: block;
+    color: var(--text-color) ;
+    text-decoration: none;      
+}
+nav a:link, nav a:visited {
+    color: var(--nav-link-color) ;
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color) ;
+    background-color: var(--nav-hover-background-color) ;
 }
 
 .hero {
@@ -49,9 +70,9 @@ nav a {
     position: absolute;
     top: 8px;
     left: 0;
-    padding: 15px 518px 15px;
-    color: white;
-    background-color: #008080;
+    padding: 15px 541px 15px;
+    color: black;
+    background-color: var(--accent2-color) ;
     opacity: 0.8;
 }
 
@@ -59,13 +80,13 @@ article {
     position: absolute;
     top: 200px;
     left: 50px;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
-    font-size: larger;
-    background-color: #214f4b;
+    font-size: 1.5rem;
+    background-color: var(--primary-color) ;
     opacity: 0.8;
     border: 10px;
-    color:aqua;
+    color: var(--secondary-color) ;
 
 }
 
@@ -75,16 +96,73 @@ article img {
     height: auto;
 }
 
-.sociallinks {
-    border-color: rgb(235, 7, 7);
+.history h2 {
+    text-align: center;
 }
+
+h2 {
+    font-size: 2rem;
+}
+
+.history-style {
+    text-align: center;
+    font-size: 1rem;
+    color: var(--secondary-color)
+}
+
+.history-style img {
+    text-align: center;
+}
+
+.adventure h2 {
+    text-align: center;
+}
+
+#image-container {
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+}
+
+figure {
+    border: thin black solid;
+    justify-content: space-around;
+    padding: 2px;
+    max-width: 220px;
+    margin: auto;
+
+}
+
+figure img {
+    max-width: fit-content;
+    max-height: 150px;
+}
+
+figcaption {
+    background-color: var(--accent1-color);
+    color: black;
+    padding: 3px; 
+}
+
+
+
+footer {
+    margin-top: 15px;
+    border-top: 1px solid #000;
+    text-align: center;
+}
+
+.sociallinks {
+    margin-top: 1px;
+    display: inline-flex}
 
 .sociallinks a {
     text-decoration: none;
 }
-
 .sociallinks img {
-    max-width: 40px;
+    max-width: 30px;
     height: auto;
-    margin: 0 10px;
+    margin: 0;
+    margin-left: 15px;
 }
+
