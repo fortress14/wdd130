@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2em;
+    color: maroon;
+    background: whitesmoke;
+}
+
+header {
+    margin: 0 auto;
+    width: 640px;
+}
+
+h1 {
+    margin: 1rem;
+    font-size: 1.5em;
+    color: blueviolet;
+    text-align: center;
+}
+
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    background-color: rgb(103, 180, 243);
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: 1.5rem;
+    margin: 1rem;
+    border: black;
+    padding: 1rem;
+}
+
+label, input, textarea, select {
+    font-family: 'Open Sans', sans-serif;
+}
+
+label {
+    text-align: left;
+    padding-right: 2rem;
+}
+
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+
+table {
+    border-collapse: collapse;
+    border: 5px;
+    font-size: 1rem;
+    letter-spacing: 3px;
+    background-color: rgb(24, 196, 138);
+    width: 450px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td {
+    height: 40px;
+    padding: 5px;
+}
+
+button {
+    margin: 1rem;
+    color: maroon;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.5rem; 
+}
+
+button:hover {
+    background-color: rgba(114, 6, 6, 0.575);
+}
+
+footer {
+    margin: 1rem auto 0;
+    width: 650px;
+    text-align: center;
+    font-size: 1rem;
+    border-top: 1px solid brown;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+
+
