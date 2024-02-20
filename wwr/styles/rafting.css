@@ -219,13 +219,31 @@ h1 {
 
 .employee-profiles {
     display: flex;
-    justify-content: space-around;
-    margin-bottom: 40px;
+    justify-content: space-between;
+    margin-bottom: 40px
 }
 
 .employee-profile {
     text-align: center;
     color: white;
+}
+
+.employee-profile {
+    box-sizing: border-box;
+    border: 1px solid #0e0101;
+    padding: 30px;
+    width: 30%;
+    text-align: center;
+}
+
+.employee-profile img {
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+}
+
+.employee-profile p {
+    font-size: 1.3rem;
 }
 
 form {
@@ -234,7 +252,7 @@ form {
     padding: 1rem;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 0.5rem;
-    background-color: whitesmoke;
+    background-color: rgb(211, 230, 247);
     display: grid;
 }
 
@@ -321,6 +339,7 @@ button:hover {
 }
 
 /*Home Page*/
+
 .welcome h1 {
     font-size: 3em;
     padding: 10px 50px 10px;
@@ -332,6 +351,10 @@ button:hover {
     width: 100%;
     height: auto;
     display: block;
+}
+
+.image-section h2 {
+    font-size: 2em;
 }
 
 .content-wrapper {
