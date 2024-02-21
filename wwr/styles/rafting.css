@@ -369,6 +369,11 @@ a {
     width: 70%;
     margin-right: 30px;
     background-color: rgb(56, 121, 56);
+    color: white;
+}
+
+.custom-form label {
+    font-size: large;
 }
 
 .custom-form input {
