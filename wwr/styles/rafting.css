@@ -298,6 +298,10 @@ button:hover {
     background-color: rgb(240, 89, 19);
 }
 
+a {
+    color: white;
+}
+
 /*Trips Page */
 
 .contact h1, h2 {
@@ -337,7 +341,7 @@ button:hover {
     object-fit: cover;
 }
 
-/*Home Page*/
+/*Home or Index Page*/
 
 .welcome h1 {
     font-size: 3em;
@@ -365,11 +369,6 @@ button:hover {
     width: 70%;
     margin-right: 30px;
     background-color: rgb(56, 121, 56);
-}
-
-.custom-form label {
-    display: block;
-    margin-bottom: 5px;
 }
 
 .custom-form input {
